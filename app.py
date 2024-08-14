@@ -4,8 +4,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Set up your Spotify API credentials
-CLIENT_ID = 'baaf315196db4203957f5f51959fe11a'
-CLIENT_SECRET = '3e1e5763c1144be0859959eb761b8ea6'
+CLIENT_ID = 'Your_clientID'
+CLIENT_SECRET = 'Your_Client Secret'
 REDIRECT_URI = 'http://localhost:8501'  # This should match your Streamlit app's URL
 
 # Initialize the Spotify API client
